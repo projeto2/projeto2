@@ -12,11 +12,14 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+
+import filial.Filial;
 
 import usuario.Endereco;
 import usuario.Usuario;
@@ -32,11 +35,11 @@ public class Pedido
 	@Temporal(TemporalType.DATE)
 	private Date data;
 	
-	@OneToMany(cascade=CascadeType.ALL, mappedBy="pedido", fetch=FetchType.EAGER)
+	@OneToMany(cascade=CascadeType.ALL, mappedBy="pedido", fetch=FetchType.LAZY)
 	private List<Item> itens;
 	
 	@OneToMany(cascade=CascadeType.ALL)
-	@ElementCollection(fetch=FetchType.EAGER)
+	@ElementCollection(fetch=FetchType.LAZY)
 	@JoinTable(name="endereco_pedido", joinColumns=@JoinColumn(name="pedido_id"))
 	private List<Endereco> endereco;
 	
@@ -48,6 +51,12 @@ public class Pedido
 	
 	@OneToOne
 	private Usuario usuario;
+	
+	@Column
+	private boolean encaminhado;
+	
+	@ManyToOne
+	private Filial filial;
 	
 	public Integer getId() {
 		return id;
@@ -90,5 +99,11 @@ public class Pedido
 	}
 	public void setUsuario(Usuario usuario) {
 		this.usuario = usuario;
+	}
+	public boolean isEncaminhado() {
+		return encaminhado;
+	}
+	public void setEncaminhado(boolean encaminhado) {
+		this.encaminhado = encaminhado;
 	}
 } 

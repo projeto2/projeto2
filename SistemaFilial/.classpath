@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/ant-1.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/barbecue-1.5-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/barcode4j-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/bcel-5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/castor-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/commons-beanutils-1.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/commons-collections-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/commons-javaflow-20060411.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/groovy-all-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/hibernate-commons-annotations-4.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/hibernate-core-4.1.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/hsqldb-1.8.0-10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/iText-2.1.7.js2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/jackson-annotations-2.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/jackson-core-2.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/jackson-databind-2.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/jasperreports-5.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/jasperreports-applet-5.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/jasperreports-fonts-5.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/jasperreports-javaflow-5.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/javassist-3.15.0-GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/jaxen-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/jboss-logging-3.1.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/jboss-transaction-api_1.1_spec-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/jcommon-1.0.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/jdt-compiler-3.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/jfreechart-1.0.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/jgoodies-common-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/jgoodies-looks-2.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/mysql-connector-java-5.1.7-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/org-netbeans-core.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/saaj-api-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/serializer.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/spring-beans-2.5.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/spring-core-2.5.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/velocity-1.7-dep.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/xalan-2.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/xbean.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/xercesImpl-2.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/xml-apis.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bruno/Documents/Lib Victor/xml-apis-ext.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -5,6 +5,9 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 import org.hibernate.service.ServiceRegistryBuilder;
 
+import departamento.Departamento;
+import filial.Filial;
+
 import pedido.Item;
 import pedido.Pedido;
 import produto.Produto;
@@ -23,7 +26,7 @@ public class Conexao
 		
 		configuration.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5InnoDBDialect");
 		
-		configuration.setProperty("hibernate.connection.driver", "com.mysql.jdbc.Driver");
+		configuration.setProperty("hibernate.connection.driver_class", "com.mysql.jdbc.Driver");
 		configuration.setProperty("hibernate.connection.url", "jdbc:mysql://localhost:3306/sistema?autoReconnect=true");
 		configuration.setProperty("hibernate.connection.username", "root");
 		configuration.setProperty("hibernate.connection.password", "root");
@@ -36,6 +39,8 @@ public class Conexao
 		configuration.addAnnotatedClass(Produto.class);
 		configuration.addAnnotatedClass(Pedido.class);
 		configuration.addAnnotatedClass(Item.class);
+		configuration.addAnnotatedClass(Departamento.class);
+		configuration.addAnnotatedClass(Filial.class);
 		
 		ServiceRegistry serviceRegistry = new ServiceRegistryBuilder().applySettings(configuration.getProperties()).buildServiceRegistry();
 		

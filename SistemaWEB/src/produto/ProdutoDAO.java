@@ -36,7 +36,8 @@ public class ProdutoDAO
 	public List<Produto> buscaCategoria(String categoria)
 	{
 		Criteria criteria = session.createCriteria(Produto.class);
-		criteria.add(Restrictions.eq("categoria", categoria));
+		criteria.createAlias("departamento", "d");
+		criteria.add(Restrictions.eq("d.nome", categoria));
 		
 		return criteria.list();
 	}

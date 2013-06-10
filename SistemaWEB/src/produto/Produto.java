@@ -4,7 +4,10 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+
+import departamento.Departamento;
 
 @Entity
 @Table(name="produto")
@@ -23,8 +26,8 @@ public class Produto
 	@Column
 	private Double valor;
 	
-	@Column
-	private String categoria;
+	@ManyToOne
+	private Departamento departamento;
 	
 	public Integer getId() {
 		return id;
@@ -50,12 +53,10 @@ public class Produto
 	public void setValor(Double valor) {
 		this.valor = valor;
 	}
-	public String getCategoria() {
-		return categoria;
+	public Departamento getDepartamento() {
+		return departamento;
 	}
-	public void setCategoria(String categoria) {
-		this.categoria = categoria;
+	public void setDepartamento(Departamento departamento) {
+		this.departamento = departamento;
 	}
-	
-	
 }
